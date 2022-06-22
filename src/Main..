@@ -1,0 +1,35 @@
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<spring:url value="/resources/images/mithunlogo.jpg" var="mithunlogo" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>NB Technologies- Home Page</title>
+
+</head>
+</head>
+<body>
+<h1 align="center">Welcome to NB Software Solutions Pvt Ltd.</h1>
+<h1 align="center">
+    NB Software Solutions---	100 % Job Guarntee DevOps Program will be in Online , it is Very Good Training center for DevOps and also for Job Assitance... and Job Support also...Teaching Real Time scnerios</h1>
+<hr>
+<div style="text-align: center;">
+	<span>
+		<img src="${mithunlogo}" alt="" width="100"/>
+
+	</span>
+	<span style="font-weight: bold;">
+		NB Software Solutions
+		Hyderabad
+	</span>
+</div>
+<hr>
+	<p> Service : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">Get Employee Details </p>
+<hr>
+<p align=center>NB Software Solutions - Consultant, Training, Development Center.</p>
+<p align=center><small>Copyrights 2022 by NB Software Solutions</a> </small></p>
+
+</body>
+</html>
